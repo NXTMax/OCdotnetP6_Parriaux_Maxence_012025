@@ -25,7 +25,7 @@
         <packagedElement xmi:type="uml:DataType" xmi:id="uZf1UJg2moWIy" name="long double" stereotype="dataType"/>
         <packagedElement xmi:type="uml:DataType" xmi:id="uhoy7R4jYDHDh" name="wchar_t" stereotype="dataType"/>
       </uml:Package>
-      <packagedElement xmi:type="uml:Class" xmi:id="uZzj7defYUuDU" name="timestamp"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uZzj7defYUuDU" name="date"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="Use_Case_View" name="Use Case View"/>
     <packagedElement xmi:type="uml:Model" xmi:id="Component_View" name="Component View"/>
