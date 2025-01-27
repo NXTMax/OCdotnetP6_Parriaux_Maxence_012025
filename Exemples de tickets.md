@@ -274,14 +274,10 @@ Correction d'un bug dans le module de gestion des transactions qui causait la su
 **Version** : 1.0<br>
 **Système d’exploitation** : iOS<br>
 **Date de création** : 5 mai 2024<br>
-**Date de résolution** : 15 mai 2024<br>
-**Statut (résolu/en cours)** : Résolu
+**Statut (résolu/en cours)** : En cours
 
 **Problème** :
 Les utilisateurs signalent que l'application refuse de démarrer sur les appareils iOS 14 et versions ultérieures. L'écran de démarrage apparaît pendant quelques secondes puis l'application se ferme sans message d'erreur.
-
-**Résolution** :
-Identification d'une incompatibilité avec la nouvelle politique de gestion des permissions d'iOS 14. Mise à jour du manifeste de l'application pour inclure les nouvelles déclarations de permissions requises.
 
 ### Ticket 19
 
@@ -319,14 +315,10 @@ Correction d'un bug dans le module de création d'événements qui causait un pl
 **Version** : 1.3<br>
 **Système d’exploitation** : iOS<br>
 **Date de création** : 1 août 2024<br>
-**Date de résolution** : 10 août 2024<br>
-**Statut (résolu/en cours)** : Résolu
+**Statut (résolu/en cours)** : En cours
 
 **Problème** :
 Les utilisateurs signalent que les graphiques de performance des actions ne se mettent pas à jour en temps réel. Les données affichées sont souvent obsolètes de plusieurs minutes.
-
-**Résolution** :
-Mise à jour du module de gestion des graphiques pour s'assurer que les données sont récupérées et affichées en temps réel. Correction d'un bug qui causait un retard dans la mise à jour des graphiques.
 
 ### Ticket 22
 
@@ -334,14 +326,10 @@ Mise à jour du module de gestion des graphiques pour s'assurer que les données
 **Version** : 2.1<br>
 **Système d’exploitation** : MacOS<br>
 **Date de création** : 5 septembre 2024<br>
-**Date de résolution** : 15 septembre 2024<br>
-**Statut (résolu/en cours)** : Résolu
+**Statut (résolu/en cours)** : En cours
 
 **Problème** :
 Les utilisateurs signalent que l'application se bloque lors de la tentative de consultation de l'historique des transactions. L'application devient non réactive et doit être redémarrée.
-
-**Résolution** :
-Correction d'un bug dans le module de gestion de l'historique des transactions qui causait un blocage de l'application. Mise à jour de l'application pour gérer correctement les erreurs lors de la consultation de l'historique des transactions.
 
 ### Ticket 23
 
@@ -364,14 +352,10 @@ Correction d'un bug dans le module de synchronisation qui causait un échec de l
 **Version** : 1.0<br>
 **Système d’exploitation** : iOS<br>
 **Date de création** : 15 novembre 2024<br>
-**Date de résolution** : 25 novembre 2024<br>
-**Statut (résolu/en cours)** : Résolu
+**Statut (résolu/en cours)** : En cours
 
 **Problème** :
 Les utilisateurs signalent que les notifications de rappel ne fonctionnent pas. Les rappels programmés n'apparaissent pas à l'heure prévue.
-
-**Résolution** :
-Correction d'un problème dans le système de notifications de l'application. Mise à jour du code pour s'assurer que les rappels sont correctement programmés et affichés.
 
 ### Ticket 25
 

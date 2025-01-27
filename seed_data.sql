@@ -176,10 +176,10 @@ VALUES
     1),
 
     -- Ticket 18 (Maître des Investissements 1.0 iOS)
-    (17, '2024-05-05', '2024-05-15',
+    (17, '2024-05-05', NULL,
     N'Les utilisateurs signalent que l''application refuse de démarrer sur les appareils iOS 14 et versions ultérieures. L''écran de démarrage apparaît pendant quelques secondes puis l''application se ferme sans message d''erreur.',
-    N'Identification d''une incompatibilité avec la nouvelle politique de gestion des permissions d''iOS 14. Mise à jour du manifeste de l''application pour inclure les nouvelles déclarations de permissions requises.',
-    1),
+    NULL,
+    2),
 
     -- Ticket 19 (Planificateur d'Entraînement 2.0 iOS)
     (36, '2024-06-10', '2024-06-20',
@@ -194,16 +194,16 @@ VALUES
     1),
 
     -- Ticket 21 (Trader en Herbe 1.3 iOS)
-    (15, '2024-08-01', '2024-08-10',
+    (15, '2024-08-01', NULL,
     N'Les utilisateurs signalent que les graphiques de performance des actions ne se mettent pas à jour en temps réel. Les données affichées sont souvent obsolètes de plusieurs minutes.',
-    N'Mise à jour du module de gestion des graphiques pour s''assurer que les données sont récupérées et affichées en temps réel. Correction d''un bug qui causait un retard dans la mise à jour des graphiques.',
-    1),
+    NULL,
+    2),
 
     -- Ticket 22 (Maître des Investissements 2.1 MacOS)
-    (21, '2024-09-05', '2024-09-15',
+    (21, '2024-09-05', NULL,
     N'Les utilisateurs signalent que l''application se bloque lors de la tentative de consultation de l''historique des transactions. L''application devient non réactive et doit être redémarrée.',
-    N'Correction d''un bug dans le module de gestion de l''historique des transactions qui causait un blocage de l''application. Mise à jour de l''application pour gérer correctement les erreurs lors de la consultation de l''historique des transactions.',
-    1),
+    NULL,
+    2),
 
     -- Ticket 23 (Planificateur d'Entraînement 1.0 MacOS)
     (26, '2024-10-10', '2024-10-20',
@@ -212,10 +212,10 @@ VALUES
     1),
 
     -- Ticket 24 (Planificateur d'Anxiété sociale 1.0 iOS)
-    (40, '2024-11-15', '2024-11-25',
+    (40, '2024-11-15', NULL,
     N'Les utilisateurs signalent que les notifications de rappel ne fonctionnent pas. Les rappels programmés n''apparaissent pas à l''heure prévue.',
-    N'Correction d''un problème dans le système de notifications de l''application. Mise à jour du code pour s''assurer que les rappels sont correctement programmés et affichés.',
-    1),
+    NULL,
+    2),
 
     -- Ticket 25 (Trader en Herbe 1.1 Windows)
     (5, '2024-12-20', '2024-12-30',
